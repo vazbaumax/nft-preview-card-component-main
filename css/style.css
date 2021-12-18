@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+  max-width: 1440px;
+  min-width: 375px;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.nft {
+  border-radius: 20px;
+  max-width: 280px;
+  padding: 20px;
+  font-family: 'Outfit' ;
+  font-size: 18px;
+  color: white;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0px 15px 10px 10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 15px 10px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 15px 10px 10px rgba(0,0,0,0.75);
+}
+
+.nft-header {
+  width: 100%;
+  height: 35vh;
+  background-image: url(/images/image-equilibrium.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: contain;
+  border-radius: 7px;
+  box-shadow: 3px 3px 10px 2px hsl(217, 54%, 11%);
+  -webkit-box-shadow: 3px 3px 10px 2px hsl(217, 54%, 11%);
+  -moz-box-shadow: 3px 3px 10px 2px hsl(217, 54%, 11%);
+}
+
+.nft-header:hover {
+  background-size: 30%;
+  background-color: rgba(0, 255, 247, 0.158);
+}
+
+
+.nft-body {
+  margin-top: 10px;
+}
+
+.nft-body-title {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.nft-body-title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.nft-body-subtitle {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-weight: 300;
+  font-size: 15px;
+
+}
+
+.nft-body-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.nft-body-cripto {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.nft-body-clock {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.nft-footer {
+  margin-top: 25px;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  display: flex;
+}
+
+.nft-footer-avatar {
+  margin-top: 20px;
+  width: 30px;
+  border: solid 1px hsl(0, 0%, 100%) ;
+  border-radius: 50%;
+}
+
+.nft-footer-author {
+  margin-top: 25px;
+  margin-left: 15px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bold:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
