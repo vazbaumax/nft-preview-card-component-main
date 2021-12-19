@@ -17,7 +17,7 @@ body {
 
 .nft {
   border-radius: 20px;
-  max-width: 280px;
+  max-width: 350px;
   padding: 20px;
   font-family: 'Outfit' ;
   font-size: 18px;
@@ -31,10 +31,11 @@ body {
 .nft-header {
   display: flex;
   width: 100%;
-  height: 35vh;
+  height: 45vh;
   background-image: url(https://github.com/vazbaumax/nft-preview-card-component-main/blob/master/images/image-equilibrium.jpg?raw=true);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   border-radius: 7px;
   box-shadow: 3px 3px 10px 2px hsl(217, 54%, 11%);
   -webkit-box-shadow: 3px 3px 10px 2px hsl(217, 54%, 11%);
@@ -65,10 +66,6 @@ body {
 .nft-header-view:hover img {
   visibility: visible;
 }
-
-
-
-
 
 .nft-body {
   margin-top: 10px;
