@@ -57,9 +57,18 @@ body {
   height: 50px;
 }
 
+.nft-header-view:hover {
+  background-color: hsla(178, 100%, 50%, .5);
+  border-radius: 7px;
+}
+
 .nft-header-view:hover img {
   visibility: visible;
 }
+
+
+
+
 
 .nft-body {
   margin-top: 10px;
